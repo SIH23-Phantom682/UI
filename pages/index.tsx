@@ -25,7 +25,7 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 						{mainMenu && <VerticalMenu menuList={mainMenu} />}
 					</nav>
 					<div className='col-lg-9 col-md-12'>
-						<h1 className='page-heading page-heading_h1  page-heading_m-h1'>Boundless store</h1>
+						<h1 className='page-heading page-heading_h1  page-heading_m-h1'>Dak Ghar Niryat Kendra</h1>
 						<ProductsList products={products} query={{}}/>
 					</div>
 				</div>
@@ -38,9 +38,9 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 				img={bgImg.src}
 				imgPortrait={bgPortraitImg.src}
 				content={{
-					intro: 'Intro',
-					head: 'Main header',
-					subHead: 'subheader'
+					// intro: 'Intro',
+					// head: 'Main header',
+					// subHead: 'subheader'
 				}}
 				shadow={{
 					opacity: 0.5,

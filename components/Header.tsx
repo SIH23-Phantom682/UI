@@ -24,7 +24,7 @@ export default function Header({companyTitle}: {companyTitle?: string}) {
 				<div className='page-header__content'>
 					<div className='page-header__logo'>
 						<Link href='/'>
-							<img src={logoImg.src} width={logoImg.width} height={logoImg.height} alt={title} />
+							<img src="https://dnk.cept.gov.in/customers.web/static/img/dnk2.png" width="100" height="100" alt={title} />
 						</Link>
 					</div>
 					<div className={'page-header__right-blocks'}>

@@ -10,9 +10,9 @@ export default function CoverPage() {
 				img={bgImg.src}
 				imgPortrait={bgPortraitImg.src}
 				content={{
-					intro: 'Intro',
-					head: 'Main header',
-					subHead: 'subheader'
+					intro: '',
+					head: '',
+					subHead: ''
 				}}
 				shadow={{
 					opacity: 0.5,

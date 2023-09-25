@@ -36,9 +36,9 @@ export default function MainLayout({children, title, metaData, mainMenu, footerM
 				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 				<meta httpEquiv='X-UA-Compatible' content='ie=edge' />
 
-				<link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
-				<link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
-				<link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
+				<link rel='apple-touch-icon' sizes='180x180' href='https://dnk.cept.gov.in/customers.web/static/img/dnk2.png' />
+				<link rel='icon' type='image/png' sizes='32x32' href='https://dnk.cept.gov.in/customers.web/static/img/dnk2.png' />
+				<link rel='icon' type='image/png' sizes='16x16' href='https://dnk.cept.gov.in/customers.web/static/img/dnk2.png' />
 				<link rel='manifest' href='/site.webmanifest' />
 				<link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
 				{canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
@@ -46,12 +46,12 @@ export default function MainLayout({children, title, metaData, mainMenu, footerM
 				<meta name='theme-color' content='#ffffff' />
 
 				<meta property='og:type' content='website' />
-				<meta property='og:title' content={title || 'Boundless-Commerce Shop Example'} />
+				<meta property='og:title' content="DNK" />
 				<meta property='og:url' content={canonicalUrl || shopBaseUrl} />
 				<meta property='og:image' content={imgUrl || (shopBaseUrl + '/og.jpeg')} />
 				{description && <meta property='og:description' content={description} />}
 
-				<title>{title || 'Boundless-Commerce Shop Example'}</title>
+				<title>DNK</title>
 
 				<link rel='preconnect' href={process.env.BOUNDLESS_API_BASE_URL || 'https://api.boundless-commerce.com'} crossOrigin={'use-credentials'} />
 				{noIndex && <meta name='robots' content='noindex' />}

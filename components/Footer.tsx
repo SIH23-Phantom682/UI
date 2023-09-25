@@ -18,9 +18,6 @@ export default function Footer({menuList, companyTitle}: {menuList: IMenuItem[],
 					<div className='page-footer__item col-sm-12 col-md-6 col-lg-3 order-lg-3 order-md-2 order-2'>
 						<FooterContacts />
 					</div>
-					<div className='page-footer__item col-sm-12 col-md-6 col-lg-3 order-lg-4 order-md-4 order-3'>
-						<SocialButtons />
-					</div>
 				</div>
 			</div>
 		</footer>
